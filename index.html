@@ -19,15 +19,14 @@
             </div>
             <nav id="nav">
                 <ul>
-                    <li><a href="#inicio">INICIO</a></li>
-                    <li><a href="#sobremi">SOBRE MI</a></li>
-                    <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#curriculum">CURRICULUM</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#contacto">CONTACTO</a></li>
+                   <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
                 </ul>
             </nav>
-            <div class="nav-responsive">
+            <div class="nav-responsive" onclick="mostratOcultarMenu()">
                 <i class="fa-solid fa-bars"></i>
 
             </div>
@@ -42,9 +41,9 @@
             <h1>DENISSE NAVARRO ASTO</h1>
             <h2>Desarrolladora web full stack<h2>
                     <div class="redes">
-                        <a href="#"><i class="fa-brands fa-github"></i>
+                        <a href="https://github.com/DenisseNavarro"><i class="fa-brands fa-github"></i>
                         </a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/in/denisse-navarro-2050322a9/"><i class="fa-brands fa-linkedin"></i></a>
                     </div>
 
         </div>
@@ -146,7 +145,7 @@
                 <!-- Technical Skill -->
                 <div class="col">
                     <h3>Technical Skills</h3>
-
+                
 
                     <div class="skill">
                         <span>HTML</span>
@@ -201,6 +200,8 @@
                         <i class="fa-brands fa-node-js"></i>
                     </div>
                 </div>
+            </div>
+            </section>
 
 
                  <!-- SECCION CURRICULUM -->
@@ -252,28 +253,39 @@
                 <div class="col derecha">
                     <h3>Experiencia de trabajo</h3>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Gestora financiera</h4>
+                        <span class="casa">4Finance</span>
+                        <span class="fecha">2017-2023</span>
+                        <p>Me desempeñé en un servicio altamente especializado de atención al cliente para una institución financiera que gestionaba los préstamos de Vivus y Zaplo. Mi rol abarcaba desde la evaluación y aprobación de préstamos hasta la administración de pagos y la gestión integral de la documentación requerida. Mi trayectoria comenzó en el departamento de atención al cliente, donde adquirí conocimiento de las necesidades y preocupaciones de nuestros usuarios. Posteriormente, tuve la oportunidad de trabajar en los departamentos de documentación e identificación del cliente, lo cual me proporcionó una visión completa de los procesos internos y habilidades y experiencia para garantizar la seguridad y la integridad de nuestras operaciones.
+                        </p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Gestor telefónico de banca</h4>
+                        <span class="casa">Marktel</span>
+                        <span class="fecha">2017</span>
+                        <p>Me desempeñaba en un servicio especializado de atención al cliente, donde brindaba asistencia a los clientes en la gestión y resolución de consultas relacionadas con sus cuentas, tarjetas y depósitos financieros. Mi labor consistía en proporcionar un soporte integral, asegurándome de que las necesidades de los clientes fueran atendidas de manera eficiente y satisfactoria. Además de responder a sus preguntas, también les ofrecía orientación y asesoramiento para optimizar su experiencia financiera y resolver cualquier problema que pudieran tener.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
                     </div>
                     <div class="item der">
-                        <h4>Front Developer</h4>
-                        <span class="casa">Nombre de Compañía</span>
-                        <span class="fecha">2005 - 2008</span>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <h4>Camarera</h4>
+                        <span class="casa">Bar López</span>
+                        <span class="fecha">2016</span>
+                        <p>Durante mi tiempo en este puesto, fui responsable de proporcionar un servicio excepcional a los clientes, tomando pedidos, sirviendo alimentos y bebidas, y asegurándome de que su experiencia en el bar fuera agradable y satisfactoria. Además, colaboré estrechamente con el equipo para mantener la limpieza y el orden en el área de trabajo, garantizando así un ambiente acogedor y seguro para nuestros clientes."
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Gestor Telefónico para Banco Santander</h4>
+                        <span class="casa">Transcom</span>
+                        <span class="fecha">2015-2016</span>
+                        <p>Participé activamente en la implementación y desarrollo de la campaña de la Cuenta 123 para el Banco Santander. Mi rol consistió en facilitar la prestación de servicios de información sobre la cuenta, así como en asistir en el proceso de contratación y resolver las consultas o dudas de los clientes.</p>
                         <div class="conectord">
                             <div class="circulod"></div>
                         </div>
@@ -287,51 +299,66 @@
         <div class="contenido-seccion">
             <h2>PORTFOLIO</h2>
             <div class="galeria">
+                <button onclick="moveSlider(-1)" class="prev">&#10094;</button>
                 <div class="proyecto">
-                    <img src="img/p1.jpg" alt="">
+                    <img src="images/to-do-lists.jpeg" alt="">
                     <div class="overlay">
-                        <h3>To do list.</h3>
-                        <p>Fotografía</p>
+                        <a href="https://github.com/DenisseNavarro/to-do-list.git">To do list.
+                        </a>
+                     </div>
+                </div>
+                <div class="proyecto">
+                    <img src="images/ruletita.jpg" alt="">
+                    <div class="overlay">
+                        <a href="https://github.com/DenisseNavarro/Ruleta-equipo-uno.git">Ruleta de la suerte.
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p2.jpg" alt="">
+                    <img src="images/dashboard.jpg" alt="">
                     <div class="overlay">
-                        <h3>Ruleta de la suerte.</h3>
-                        <p>Fotografía</p>
+                        
+                        <a href="https://github.com/Jander1016/ModasChic.git">Dashboard ecommerce.
+                       
+                    </div>
+                </div>
+            
+                <div class="proyecto">
+                    <img src="images/Digital-Marketplace.webp" alt="">
+                    <div class="overlay">
+                        <a href="https://github.com/DenisseNavarro/Apolliculture.git">Marketplace Full Star.</a>
                     </div>
                 </div>
                 <div class="proyecto">
-                    <img src="img/p3.jpg" alt="">
+                    <img src="images/newsletter.jpg" alt="">
                     <div class="overlay">
-                        <h3>Dashboard de ecommerce</h3>
-                        <p>Fotografía</p>
+                        <a href="https://github.com/Yluzna/mundoTeki-Front.git">Periódico digital.</a>
                     </div>
                 </div>
-                <div class="proyecto">
-                    <img src="img/p4.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Back-end de ecommerce.</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p5.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Marketplace Full Star</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-                <div class="proyecto">
-                    <img src="img/p6.jpg" alt="">
-                    <div class="overlay">
-                        <h3>Periódico digital</h3>
-                        <p>Fotografía</p>
-                    </div>
-                </div>
-            </div>
+            
+            
+            <button onclick="moveSlider(1)" class="next">&#10095;</button>
+        </div>
         </div>
     </section>
+    <script src="script.js"></script>
+
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://github.com/DenisseNavarro"><i class="fa-brands fa-github"></i>
+            <a href="https://www.linkedin.com/in/denisse-navarro-2050322a9/"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
 
 </body>
 
