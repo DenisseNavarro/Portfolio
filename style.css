@@ -629,6 +629,7 @@ footer .arriba {
 
     .skills .fila {
         display: block;
+        padding:2px;
     }
 
     .skills .fila .col {
